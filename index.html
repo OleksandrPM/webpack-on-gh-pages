@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Webpack App</title>
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <h1 class="heading-primary">Webpack App</h1>
+      </header>
+      <div class="page__content">
+        <div class="centered-flex-row u-mb-6">
+          <input type="number" id="Number1" class="input" title="n1" />
+          <select id="Operation" class="select" title="operation">
+            <option value="SCITANI">+</option>
+            <option value="ODECITANI">-</option>
+            <option value="DELENI">/</option>
+            <option value="NASOBENI">*</option>
+          </select>
+          <input type="number" id="Number2" class="input" title="n2" />
+          <button id="SubmitButton" class="button">=</button>
+        </div>
+        <p id="ErrorMessage" class="error-message u-mb-8"></p>
+        <p id="ResultText" class="result-text u-mb-8">
+          Výsledek je: <span id="ResultValue" class="result-text__value"></span>
+        </p>
+        <hr class="horizontal-rule u-mb-8" />
+        <img src="./assets/img/image.svg" class="image" alt="img" />
+      </div>
+    </div>
+  </body>
+</html>

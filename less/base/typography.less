@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap');
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.heading-primary {
+    font-size: 3.2rem;
+    font-weight: 700;
+    line-height: 1;
+
+    text-transform: uppercase;
+
+    color: @colors[white];
+}
+
+.result-text {
+    font-size: 2.4rem;
+    line-height: 1;
+
+    text-transform: uppercase;
+    text-align: center;
+
+    color: @colors[grey-80];
+
+    &__value {
+        color: @colors[tertiary-dark];
+    }
+}
+
+.error-message {
+    font-size: 2rem;
+    line-height: 2.8rem;
+
+    text-align: center;
+
+    color: @colors[tertiary-dark];
+}
