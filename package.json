@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "http://OleksandrPM.github.io/webpack-on-gh-pages",
+  "homepage": "https://oleksandrpm.github.io/webpack-on-gh-pages",
   "repository": {
     "url": "git+https://github.com/OleksandrPM/webpack-on-gh-pages.git"
   },
